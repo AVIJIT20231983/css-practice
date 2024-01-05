@@ -1,0 +1,31 @@
+.container{
+    width: 1200px;
+}
+nav{
+    background-color:whitesmoke;
+}
+container{
+    display: inline-block;
+}
+.row ul li {
+    display: inline-block;
+}
+button{
+    background-color:red;
+    border-radius: 10px;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.row ul li .hover{
+    background-color: aqua;
+}
+a:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+nav .row ul li{
+    justify-content: space-between;
+    vertical-align: middle;
+}
